@@ -1,4 +1,4 @@
-// import do knex
+    // import do knex
 const knex = require('knex');
 // import das configurações do DB
 const configuration = require('../../knexfile');

@@ -1,33 +1,17 @@
 // importo todas as funcionalidades do express
 const express = require('express');
-const crypto = require('crypto');
-const connection = require('./database/connection');
+const OngController = require('./controllers/OngController');
+const IncidentController = require('./controllers/IncidentController');
 
 // Módulo de rotas do express
 const routes = express.Router();
 
-routes.get('/ongs', async (request, response) => 
-{
-	const ongs = await connection('ongs').select('*');
-	return response.json(ongs);
-});
+routes.get('/ongs', OngController.index);
+routes.post('/ongs', OngController.create);
 
-routes.post('/ongs', async (request, response) => {
-	const { name, email, whatsapp, city, uf } = request.body;
-
-	const id = crypto.randomBytes(4).toString('HEX');
-
-	await connection('ongs').insert({
-		id, 
-		name,
-		email,
-		whatsapp,
-		city,
-		uf,
-	});
-	
-	return response.json( { id } );
-});
+routes.get('/incidents', IncidentController.index);
+routes.post('/incidents', IncidentController.create);
+routes.delete('/incidents/:id', IncidentController.delete);
 
 // Isso é o que torna a rota visivel dentro da aplicação
 module.exports = routes;
