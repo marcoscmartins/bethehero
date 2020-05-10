@@ -2,7 +2,26 @@ const connection = require('../database/connection');
 
 module.exports = {
     async index(request, response) {
-        const incidents = await connection('incidents').select('*');
+        // pegando o número da página retornado pela query do request
+        const { page = 1 } = request.query;
+
+        const [count] = await connection('incidents').count();
+
+        const incidents = await connection('incidents')
+        .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
+        .limit(5)
+        .offset((page - 1) * 5)
+        .select(['incidents.*', 
+            'ongs.name', 
+            'ongs.email', 
+            'ongs.whatsapp',
+            'ongs.city',
+            'ongs.uf'
+        ]);
+
+        // retornando o total pelo cabeçalho da resposta
+        response.header('X-Total-Count', count['count(*)']);
+
         return response.json(incidents);
     },
     async create(request, response) { 
@@ -31,7 +50,7 @@ module.exports = {
         .first();
 
         // if the status is different retorn not authorized (401)
-        if (incident.ong_id != ong_id) {
+        if (incident.ong_id !== ong_id) {
             return response.status(401).json( { error : 'Operation not permitted '});
         }
 
