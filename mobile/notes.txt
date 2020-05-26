@@ -1,0 +1,37 @@
+# Diferenças entre React Native e ReactJS
+
+
+
+# Estrutura de Pastas
+
+asdasdas
+
+
+# Icone e Splash Screen
+
+asdasdas
+
+
+# Navegação
+
+asdasdas
+
+
+# Página de Casos
+
+asdasdas
+
+
+# Abrindo Whatsapp e E-mail
+
+asdasdas
+
+
+# Conexão com API
+
+asdasdas
+
+
+# Enviando projeto ao Github
+
+asdasdas
