@@ -11,22 +11,22 @@
 💻 an application made with node.js | react &amp; react native ⚛ from the omnistack week 11 by @rocketseat 🚀
 </h4>
 
-<!-- <h1 align="center">
-<a href="https://www.linkedin.com/in/hedenica/">
-    <img alt="by hedênica" src="https://img.shields.io/badge/made%20by-hedenica-%2304D361">
- </a> -->
+<h1 align="center">
+<a href="https://www.linkedin.com/in/marcoscardosomartins/">
+    <img alt="by hedênica" src="https://img.shields.io/badge/made%20by-marcoscmartins-green">
+ </a>
  
-<!--   <a href="https://github.com/hedenica/be-the-hero/commits/master">
-    <img alt="last commit" src="https://img.shields.io/github/last-commit/hedenica/be-the-hero">
+  <a href="https://github.com/marcoscmartins/bethehero/commits/master">
+    <img alt="last commit" src="https://img.shields.io/badge/last%20commit-june-brightgreen">
   </a>
-</h1> -->
+</h1> 
 
 <h1 align="center">
     <img alt="application-page" title="application-page" src=".github/application.jpg" width="500px" />
 </h1>
 
-## 🚀 developed with
-#### these core technologies ⚛
+## 🚀 Developed with
+#### These core technologies ⚛
 
 - [Node.js](https://nodejs.org/en/) 
 - [React](https://reactjs.org)
@@ -34,8 +34,8 @@
 - [Expo](https://expo.io/)
 
 
-## ✔ made also with:
-#### couldn't have done it without these 💜
+## ✔ Made also with:
+#### Couldn't have done it without these 💜
 
 - **dependencies**<br>
 		celebrate	"^12.0.1"<br>
@@ -52,6 +52,6 @@
    ---------------------------------------
     
     
-     ######   Thank you [rocketseat](https://www.rocketseat.com.br) | made with ❤ and ☕ for you!
+     ######   Thank you [rocketseat](https://www.rocketseat.com.br)
     
     
