@@ -2,7 +2,7 @@
  Projeto criado na semana omnistack 11.0
 
 <h1 align="center">
-    <img alt="BeTheHero" title="#BeTheHero" src=".github/logo.svg" width="250px" />
+    <img alt="BeTheHero" title="#BeTheHero" src="bethehero/frontend/src/assets/logo.svg" width="250px" />
 </h1>
 
 
