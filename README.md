@@ -1,5 +1,3 @@
-# Be the Hero
- Projeto criado na semana omnistack 11.0
 
 <h1 align="center">
     <img alt="BeTheHero" title="#BeTheHero" src=".github/logo.svg" width="250px" />
@@ -35,7 +33,7 @@
 
 
 ## ✔ Made also with:
-#### Couldn't have done it without these 💜
+#### Couldn't have done it without hard work
 
 - **dependencies**<br>
 		celebrate	"^12.0.1"<br>
