@@ -2,7 +2,7 @@
  Projeto criado na semana omnistack 11.0
 
 <h1 align="center">
-    <img alt="BeTheHero" title="#BeTheHero" src="bethehero/frontend/src/assets/logo.svg" width="250px" />
+    <img alt="BeTheHero" title="#BeTheHero" src=".github/logo.svg" width="250px" />
 </h1>
 
 
@@ -11,18 +11,18 @@
 💻 an application made with node.js | react &amp; react native ⚛ from the omnistack week 11 by @rocketseat 🚀
 </h4>
 
-<h1 align="center">
-<a href="https://www.linkedin.com/in/marcoscardosomartins/">
-<!--     <img alt="by marcoscmartins" src="https://imgur.com/WUeaRhA"> -->
- </a>
+<!-- <h1 align="center">
+<a href="https://www.linkedin.com/in/hedenica/">
+    <img alt="by hedênica" src="https://img.shields.io/badge/made%20by-hedenica-%2304D361">
+ </a> -->
  
-  <a href="https://github.com/marcoscmartins/bethehero/commits/master">
-<!--     <img alt="last commit" src="https://img.shields.io/github/last-commit/hedenica/be-the-hero"> -->
+<!--   <a href="https://github.com/hedenica/be-the-hero/commits/master">
+    <img alt="last commit" src="https://img.shields.io/github/last-commit/hedenica/be-the-hero">
   </a>
-</h1>
+</h1> -->
 
 <h1 align="center">
-    <img alt="application-page" title="application-page" src="https://imgur.com/WUeaRhA" width="500px" />
+    <img alt="application-page" title="application-page" src=".github/application.jpg" width="500px" />
 </h1>
 
 ## 🚀 developed with
