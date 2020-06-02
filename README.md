@@ -7,7 +7,7 @@
 
 
 <h4 align="center"> 
-# be-the-hero | finished.
+# be-the-hero | finished.<p>
 💻 an application made with node.js | react &amp; react native ⚛ from the omnistack week 11 by @rocketseat 🚀
 </h4>
 
