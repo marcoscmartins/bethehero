@@ -11,10 +11,10 @@
 
 <h1 align="center">
 <a href="https://www.linkedin.com/in/marcoscardosomartins/">
-    <img alt="by hedênica" src="https://img.shields.io/badge/made%20by-marcoscmartins-green">
+    <img alt="by marcoscmartins" src="https://img.shields.io/badge/made%20by-marcoscmartins-green">
  </a>
  
-  <a href="https://github.com/marcoscmartins/bethehero/commits/master">
+  <a href="https://github.com/marcoscmartins/ecoleta/commits/master">
     <img alt="last commit" src="https://img.shields.io/badge/last%20commit-june-brightgreen">
   </a>
 </h1> 
